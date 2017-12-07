@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ping Server</title>
+        <meta charset="utf-8" />
+        <meta author="Daniel Carlson" />
+    </head>
+    <body>
+        <ul>
+            <li>google.com <span id="ping-google"></span></li>
+        </ul>
+        <form onsubmit="ping_url()" id="ping_form">
+            <input type="text" name="url" id="url" placeholder="Enter complete url..." />
+            <button type="submit">Submit</button>
+        </form>
+        <ul>
+            <li>Results:  <span id="test-ping"></span></li>
+        </ul>
+    </body>
+    <script src="./js/ping.js"></script>
+    <script src="./js/main.js"></script>
+</html>
